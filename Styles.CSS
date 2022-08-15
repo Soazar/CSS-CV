@@ -7,7 +7,9 @@ body {
     font-family:'Dot Matrix', sans-serif;  
 }
 
-h1 {color: rgb(43, 159, 126);}
+h1 {color: rgb(43, 159, 126);
+}
+
  a {color: rgb(0, 128, 70);
    text-decoration: none;
 }
@@ -112,6 +114,7 @@ a:visited{
     display: block;
     font-size: 17px;
 }
+
 .form-group input,.form-group textarea {
     width:100%;
     box-sizing: border-box;
