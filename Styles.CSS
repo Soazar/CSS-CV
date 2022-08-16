@@ -6,22 +6,18 @@ body {
     font-weight: normal;
     font-family:'Dot Matrix', sans-serif;  
 }
-
 h1 {color: rgb(43, 159, 126);
 }
 
  a {color: rgb(0, 128, 70);
    text-decoration: none;
 }
-
 a:hover { 
     text-decoration: underline;
 }
-
-a:visited{
+a:visited {
     color: grey;
 }
-
 .avatar {
     width: 250px;
     border-radius: 27px;
@@ -33,40 +29,36 @@ a:visited{
 }
 @media(max-width:700px)
 {  
-
 .info {
     text-align: center;
     display: block;
 }
-
 }
-.info-text{
+.info-text {
     margin-left: 40px;
 }
-.info-text h4{
+.info-text h4 {
     margin-bottom: 10px;
 }
 .info p 
 {   color:grey; 
     font-style: italic; 
-    font-weight: bold;  
-    
+    font-weight: bold;   
 }
 /*Box model*/
-.container{
+.container {
     max-width: 900px;
     margin: auto;
     padding-top: 30px;
 }
-
-.bg-yellow{
+.bg-yellow {
     background: #fff9dc;
     }
 .bg-green {
     background: #e5ffe7;}
 .bg-red {
     background: #ffe5e5;}
-.card{
+.card {
     padding: 15px 20px;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -74,11 +66,9 @@ a:visited{
 .card h2 {
     margin-bottom: 10px;
 }
-
 .list {
     padding: 0 20px;
 }
-
 .list li {
     color: #86898f;
     margin-bottom: 10px;
@@ -87,34 +77,28 @@ a:visited{
 .table{
     width: 100%;
 }
-
 .table td {
     padding-bottom:  10px;
 }
-
-.table td:nth-child(2),.table td:nth-child(3){
+.table td:nth-child(2),.table td:nth-child(3) {
     color: #86898f;
 }
 .link-list {
     list-style: none;
     padding: 0;
 }
-
 .link-list li {
     margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid#ccc;
 }
-
 .contact h2 {
     text-align: center;
 }
-
 .form-group label {
     display: block;
     font-size: 17px;
 }
-
 .form-group input,.form-group textarea {
     width:100%;
     box-sizing: border-box;
@@ -126,7 +110,6 @@ a:visited{
     background: transparent;
     outline: none;
 }
-
 .row {
     display: flex;
     margin-bottom: 20px;
@@ -135,7 +118,6 @@ a:visited{
     width: 50%;
     margin-right: 20px; 
 }
-
 .row >.form-group:last-child {
     margin-right: 0;
 }
@@ -147,6 +129,6 @@ a:visited{
     font-family: inherit;
     cursor: pointer;  
 }
-.btn:hover{
+.btn:hover {
     opacity: 0.9;
 }
